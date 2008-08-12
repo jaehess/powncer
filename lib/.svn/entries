@@ -1,0 +1,43 @@
+8
+
+dir
+18
+svn+ssh://jaehess@rubyforge.org/var/svn/powncer/trunk/lib
+svn+ssh://jaehess@rubyforge.org/var/svn/powncer
+
+
+
+2008-03-01T02:59:29.057018Z
+18
+jaehess
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fff76269-bfca-4d9d-82ff-7c8eaaed6fb7
+
+powncer.rb
+file
+35
+
+
+
+2008-03-20T16:13:19.000000Z
+27abc9279490f5339fae17acdbd2745e
+2008-03-20T16:14:18.070547Z
+35
+jaehess
+
+powncer
+dir
+

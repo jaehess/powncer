@@ -1,0 +1,21 @@
+def test_chaining_recipients_on_note_find
+  note = example_note
+  "/notes/#{note[:id]}.json".mock_connection(example_public_note)
+  "/notes/#{note[:id]}/recipients.json".mock_connection(example_public_note_recipients)
+  @recipients = Note.find(note[:id]).recipients
+  assert_not_nil @recipients
+  assert_kind_of Array, @recipients
+  assert_equal 1, @recipients.length
+  assert_kind_of Powncer::User, @recipients.first
+end
+
+def test_public_note_recipients
+  note = example_note
+  "/notes/#{note[:id]}.json".mock_connection(example_public_note)
+  @note = Note.find(note[:id])
+  "/notes/#{@note.id}/recipients.json".mock_connection(example_public_note_recipients)
+  assert_not_nil @note.recipients
+  assert_kind_of Array, @note.recipients
+  assert_equal 1, @note.recipients.length
+  assert_kind_of Powncer::User, @note.recipients.first
+end

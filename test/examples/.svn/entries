@@ -1,0 +1,40 @@
+8
+
+dir
+19
+svn+ssh://jaehess@rubyforge.org/var/svn/powncer/trunk/test/examples
+svn+ssh://jaehess@rubyforge.org/var/svn/powncer
+
+
+
+2008-03-04T19:33:49.901886Z
+19
+jaehess
+
+
+svn:special svn:externals svn:needs-lock
+
+basic_examples.rb
+file
+38
+
+
+
+2008-03-21T20:11:48.000000Z
+1fbb893345f99c786c890a4b318f5c32
+2008-03-21T20:15:09.216501Z
+38
+jaehess
+
+authenticated_examples.rb
+file
+33
+
+
+
+2008-03-20T13:17:20.000000Z
+df2bcbdb79c7935dec93f84b357b830a
+2008-03-20T14:53:18.901702Z
+33
+jaehess
+
