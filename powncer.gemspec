@@ -1,3 +1,4 @@
+require File.join(File.dirname(__FILE__), 'lib', 'powncer', 'version')
 Gem::Specification.new do |s| 
   s.name = "powncer"
   s.version = Gem::Version.new(Powncer::Version::VERSION)
