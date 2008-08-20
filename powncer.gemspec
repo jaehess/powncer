@@ -1,7 +1,6 @@
-require File.join(File.dirname(__FILE__), 'lib', 'powncer', 'version')
 Gem::Specification.new do |s| 
   s.name = "powncer"
-  s.version = Gem::Version.new(Powncer::Version::VERSION)
+  s.version = Gem::Version.new('0.1.2')
   s.author = "Jae Hess"
   s.email = "me@jaehess.com"
   s.homepage = "http://powncer.rubyforge.org"
