@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://powncer.rubyforge.org"
   s.platform = Gem::Platform::RUBY
   s.summary = "Powncer is a Ruby library to the Pownce REST API"
-  s.files = FileList['Rakefile', 'lib/**/*.rb']
+  s.files = ['Rakefile'] + Dir['lib/**/*.rb']
   s.require_path = "lib"
   s.test_files = Dir['test/**/*']
   s.has_rdoc = true
